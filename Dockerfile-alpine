@@ -1,4 +1,4 @@
-FROM node:12.18.4-alpine
+FROM node:16.16.0-alpine
 # Install prerequisites
 RUN apk update && apk add --no-cache curl
 RUN curl -sf https://gobinaries.com/tj/node-prune | sh
