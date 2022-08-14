@@ -5,7 +5,7 @@ This node image contains an additional tool inside (node-prune)[https://github.c
 
 ```dockerfile
 
-FROM tiny-node:12.17.0-alpine
+FROM tiny-node:16.16.0-alpine
 
 WORKDIR /usr/src/app
 COPY package.json ./
